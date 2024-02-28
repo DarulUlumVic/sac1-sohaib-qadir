@@ -22,3 +22,6 @@ END FUNCTION
 3. Construct a test table using a word processing tool, filling it with the provided test data and expected results.
 
 '''
+def calculateIjarahRentalRate(totalAmount, rentalPeriod)
+    rentalRate = (totalAmount * rentalPeriod) / 100
+    return rentalRate
